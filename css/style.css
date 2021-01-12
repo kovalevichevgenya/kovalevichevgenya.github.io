@@ -1,0 +1,207 @@
+header{
+    position: relative;
+    height: 50px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    z-index: 2;
+}
+.menu{
+    display: flex;
+    justify-content:space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+.menu .menu_link{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 25px;
+}
+.subheader{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0,0,0, .6);
+ 
+}
+.subheader_logo{
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+.subheader_official{
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.5);
+}
+.subheader_bell{
+    margin-top: 19px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: right;
+    color: #ffffff;
+}
+.subheader_number{
+    margin-top: 4px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    color: #ffffff;  
+}
+.subheader_btn{
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+.promo{
+    min-height: 800px;
+    background: url('../img/bg_main.png') center center/cover no-repeat;
+    padding: 202px 0 135px 0;
+}
+h1{
+    margin: 0;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 0.9;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.promo_header{
+    margin: 0;
+    margin-top: 22px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.promo_text{
+  margin-top: 23px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.promo_bnt{
+    display: block;
+    width: 259px;
+    height: 63px;
+    margin: 118px auto 0 auto;
+    box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.cause{
+    min-height: 900px;
+}
+.label{
+    margin: 71px auto 38px auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 2.2;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+.cause_header{
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222222;
+}
+.cause_block{
+    max-height: 142px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cause_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+.cause_text{
+    width: 342px;
+}
+.cause_subheader{
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: normal;
+    color: #1eacc7;
+}
+.cause_text_text{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #202020;
+}
